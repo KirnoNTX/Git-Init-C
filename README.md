@@ -15,14 +15,16 @@ This is a simple Bash script, `git-init-c.sh`, that sets up the basic structure 
 ## How to Use
 
 1. Clone this repository or download the script.
-2. Ensure the necessary source files exist in `~/my_scripts/git-init-c/`.
-3. Run the script:
+2. Ensure the necessary source files exist in `~/Documents/git-init-c/` (everything but .sh).
+3. Move the .sh file to a folder on your computer and name it `~/my_script/git-init-c.sh`
+4. Run the script:
    ```bash
    ./git-init-c.sh
    ```
-4. The project structure will be created, and the changes will be committed and pushed to your Git repository.
+5. The project structure will be created, and the changes will be committed and pushed to your Git repository.
 
 ## Requirements
 - Bash shell
 - Git installed
-- Create dir ~/my_scripts/git-init-c/
+- Create dir ~/my_scripts/ (for .sh)
+- Create dir ~/Documents/git-init-c/ (for base repo)

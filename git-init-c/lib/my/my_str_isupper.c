@@ -5,7 +5,17 @@
 ** my_str_isupper.c
 */
 
+#include "my_include.h"
+#include "my_macro.h"
+#include "my_proto.h"
+
 int my_str_isupper(char const *str)
 {
-    return 0;
+    if (!str)
+        return FAILURE;
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] < 'A' || str[i] > 'Z')
+            return FAILURE;
+    }
+    return SUCCESS;
 }

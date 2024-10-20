@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2024
 ** kirno
 ** File description:
-** NTX-MyMacro - my_macro.h
+** Git-Init-C - my_macro.h
 */
 
 #ifndef MY_MACRO_H
@@ -11,4 +11,4 @@
 	#define FAILURE 84
 	#define BUFFSIZE 1024 * 32
 
-#endif
+#endif /* MY_MACRO_H */

@@ -1,11 +1,16 @@
-# NTX-GitIgnore
-# By Kirno
+##
+## EPITECH PROJECT, 2024
+## kirno
+## File description:
+## Git-Init-C - .Gitignore
+##
 
 # Custom
 *.log
 *~
 ~*
 vgcore*
+my_program
 
 # Prerequisites
 *.d

@@ -16,7 +16,7 @@ This is a simple Bash script, `git-init-c.sh`, that sets up the basic structure 
 
 1. Clone this repository or download the script.
 2. Ensure the necessary source files exist in `~/Documents/git-init-c/` (everything but .sh).
-3. Move the .sh file to a folder on your computer and name it `~/my_script/git-init-c.sh`
+3. Move the .sh file to a folder on your computer and name it `~/my_scripts/git-init-c.sh`
 4. Run the script:
    ```bash
    ./git-init-c.sh
